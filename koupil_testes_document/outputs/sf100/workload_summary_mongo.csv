@@ -1,0 +1,7 @@
+task,sf,database,collection,runs_configured,runs_valid,example_rows,avg_time_ms,min_time_ms,max_time_ms,std_time_ms
+Q1_scan_orders,100,m2bench_sf100,orders,5,5,14225700,15915.48,14736.46,17626.7,951.83
+Q2_count_orders,100,m2bench_sf100,orders,5,5,1,3929.21,3896.31,4007.17,40.92
+Q3_orders_by_product,100,m2bench_sf100,orders,5,5,4900,8344.78,8083.06,8539.47,174.12
+Q4_order_details,100,m2bench_sf100,orders,5,5,0,3302.43,3236.41,3391.28,60.91
+Q5_orders_without_expensive_items,100,m2bench_sf100,orders,5,5,14225700,22557.68,22000.7,23441.5,548.19
+Q6_orders_per_customer,100,m2bench_sf100,orders,5,5,9949,7990.99,7917.29,8035.89,39.32
