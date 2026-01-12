@@ -1,0 +1,2 @@
+_id,order_id,customer_id,total_price,order_line
+6928a641bf4a8b20063b5d21,O1,101825,1144.56,"[{'product_id': 4507, 'unit_price': 572.28, 'quantity': 2, 'subtotal': 1144.56}]"

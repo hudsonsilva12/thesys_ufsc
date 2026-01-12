@@ -1,0 +1,5 @@
+task,sf,database,collection,runs_configured,runs_valid,example_rows,avg_time_ms,min_time_ms,max_time_ms,std_time_ms
+M1_TR1_denormalized_scan,1,ecommerce,orders,5,5,1,80.26,59.49,90.08,10.69
+M2_TR2_single_order_lookup,1,ecommerce,orders,5,5,1,5.68,5.02,6.88,0.66
+M3_TR3_join_like_unwind,1,ecommerce,orders,5,5,9691,225.02,220.56,230.41,3.2
+M4_TR4_filter_by_product,1,ecommerce,orders,5,5,100,16.88,10.76,23.34,4.34

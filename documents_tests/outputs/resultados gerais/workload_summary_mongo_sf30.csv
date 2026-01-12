@@ -1,0 +1,5 @@
+task,sf,database,collection,runs_configured,runs_valid,example_rows,avg_time_ms,min_time_ms,max_time_ms,std_time_ms
+M1_TR1_denormalized_scan,30,m2bench_sf30,orders,5,5,1,2279.01,2181.85,2371.53,76.19
+M2_TR2_single_order_lookup,30,m2bench_sf30,orders,5,5,1,5.93,5.65,6.58,0.34
+M3_TR3_join_like_unwind,30,m2bench_sf30,orders,5,5,9691,6022.11,5966.41,6152.38,67.68
+M4_TR4_filter_by_product,30,m2bench_sf30,orders,5,5,100,10.93,7.97,14.74,2.74
