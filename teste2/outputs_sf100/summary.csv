@@ -1,0 +1,7 @@
+task,avg_ms
+Q1_scan_orders,1344.1453373990953
+Q2_count_orders,26.606362871825695
+Q3_orders_by_product,0.7509592920541763
+Q4_order_details,1.0835587047040462
+Q5_orders_without_expensive_items,899.1772158071399
+Q6_orders_per_customer,110.06319401785731
