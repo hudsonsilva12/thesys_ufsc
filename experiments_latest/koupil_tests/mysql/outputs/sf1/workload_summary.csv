@@ -1,0 +1,5 @@
+task,sf,engine,database,collection_or_table,runs_configured,runs_valid,result_rows,avg_time_ms,min_time_ms,max_time_ms,std_time_ms
+T-R1_denorm_scan,1,mysql,ecommerce_sf1,N/A,5,5,1,21.08,13.96,24.88,3.72
+T-R2_single_order,1,mysql,ecommerce_sf1,N/A,5,5,1,1.34,0.62,3.4,1.04
+T-R3_join_revenue,1,mysql,ecommerce_sf1,N/A,5,5,9691,332.13,227.2,505.04,93.93
+T-R4_index_filter,1,mysql,ecommerce_sf1,N/A,5,5,32,1.49,0.51,5.28,1.89
